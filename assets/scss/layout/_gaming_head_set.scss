@@ -1,0 +1,243 @@
+.gaming-head-set {
+    background: linear-gradient(180deg,
+            rgba(0, 0, 0, 0) 0%,
+            #000000 10.08%,
+            #000000 77.08%,
+            rgba(0, 0, 0, 0) 100%),
+        #000000;
+
+    nav {
+
+
+        .text-wrapped {
+            left: 50%;
+            transform: translate(-50%);
+            top: 44px;
+            width: 50%;
+            height: 100px;
+            background: linear-gradient(90deg,
+                    rgba(0, 0, 0, 0) 0%,
+                    #000000 27.08%,
+                    #000000 77.08%,
+                    rgba(0, 0, 0, 0) 100%);
+
+            h5 {
+                font-family: "Chakra Petch";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                /* identical to box height, or 306% */
+
+                text-align: center;
+                letter-spacing: 0.2em;
+
+                background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+
+            h2 {
+                font-family: "Chakra Petch";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                /* identical to box height, or 172% */
+
+                text-align: center;
+            }
+        }
+    }
+}
+
+.line-wrapper {
+    width: 90%;
+    padding-top: 80px;
+}
+
+.cortext-bci-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+
+    color: rgba(218, 218, 218, 0.81);
+}
+
+.content-wrapper {
+    background: linear-gradient(390deg,
+            rgba(0, 0, 0, 0) -50.77%,
+            #000000 110%,
+            rgba(0, 0, 0, 0) 10%),
+        url(~/static/images/home/lines-bg.png) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.border-image {
+    border: 1px solid #ee2762;
+}
+
+
+.cortex-title-play {
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    display: inline-block;
+}
+
+.cortex-title {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+    color: #fff;
+}
+
+
+.cortex-play-content {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #d6d6d6;
+}
+
+.cortex-play-subtitle {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+
+    color: #d6d6d6;
+}
+
+
+.partners {
+    background: linear-gradient(390deg,
+            rgba(0, 0, 0, 0) -50.77%,
+            #000000 110%,
+            rgba(0, 0, 0, 0) 10%),
+        url(~/static/images/home/lines-bg-2.svg) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.banner {
+    background: linear-gradient(267.82deg, #141416 9.53%, #160d10 83.84%);
+    box-shadow: 0px 4px 70px rgba(239, 60, 82, 0.32);
+    border-radius: 12px;
+    border: 1px solid #ee2762;
+}
+
+.content-strong {
+    color: #ff3672;
+}
+
+.banner-content {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.banner-title {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #e5e5e5;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.apply-button {
+    width: 100px;
+    height: 40px;
+    border: 1px solid #ee2762;
+    background: linear-gradient(82.26deg,
+            rgba(238, 39, 98, 0.05) -1.94%,
+            rgba(240, 91, 58, 0.05) 95.6%);
+    border-radius: 4px;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.line-roadmap {
+    position: absolute;
+}
+
+.roadmap-text {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+.square-footer {
+    background: #000000;
+    box-shadow: 10px 10px 10px 30px;
+}
+
+.square-middle {
+    background: #000000;
+}
+
+
+
+.square-middle {
+    position: absolute;
+    background: #000000;
+    box-shadow: 10px 10px 10px 30px;
+}
+
+.square {
+    position: absolute;
+    top: 0;
+    left: -11px;
+}
+
+.head-wrap {
+    width: 111.1px;
+    height: 113.91px;
+    background: rgba(239, 68, 76, 0.16);
+    transform: rotate(0.11deg);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

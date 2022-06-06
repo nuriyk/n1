@@ -1,0 +1,181 @@
+.header-bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 30.77%, #000000 100.35%, rgba(0, 0, 0, 0) 100%),
+        url(~/static/images/home/hero/hero-bg.png) no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.header-linear {
+    position: absolute;
+    width: 499px;
+    height: 481px;
+    left: 88px;
+    top: -325px;
+    background: linear-gradient(90deg,
+            rgba(238, 39, 98, 0.27) 63.94%,
+            rgba(240, 91, 58, 0.27) 98.32%);
+    filter: blur(200px);
+}
+
+.logo-wrapped {
+    width: 150px;
+    height: 45px;
+}
+
+
+.menu {
+    li {
+        display: inline-block;
+
+        &.active {
+            background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%),
+                linear-gradient(99.05deg, #c824ec 0.07%, #df308d 106.32%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        a {
+            color: white;
+            font-family: "Chakra Petch";
+            font-style: normal;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+.sign-up {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    box-sizing: border-box;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(82.26deg,
+            rgba(238, 39, 98, 0.05) -1.94%,
+            rgba(240, 91, 58, 0.05) 95.6%);
+    border-radius: 4px;
+    border: 1px solid #ee2762;
+}
+
+.title {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    color: #ffffff;
+}
+
+.brain {
+    color: #ee2762;
+}
+
+.subtitle {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.primary-btn {
+    width: 120px;
+    height: 40px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+    border-radius: 3.33594px;
+}
+
+.play-video {
+    margin-left: 24px;
+    color: white;
+}
+
+.play {
+    width: 33px;
+    margin-right: 9px;
+    background: linear-gradient(82.26deg, rgba(238, 39, 98, 0.13) -1.94%, rgba(240, 91, 58, 0.13) 95.6%);
+    border-radius: 100px;
+    border: 1px solid#EE2762;
+    padding: 8px;
+}
+
+.bg-linear-right-side-header {
+    position: absolute;
+    width: 422px;
+    height: 407px;
+    top: 10%;
+    right: -30%;
+    background: linear-gradient(90deg,
+            rgba(238, 39, 98, 0.27) 63.94%,
+            rgba(240, 91, 58, 0.27) 98.32%);
+    filter: blur(200px);
+}
+
+.hamburger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+    position: relative;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 2px;
+    background: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0px);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
+

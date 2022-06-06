@@ -1,0 +1,105 @@
+.in {
+    border-radius: 2px;
+    display: inline-block;
+    color: #000000;
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+}
+
+.our-team-content {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    /* identical to box height, or 306% */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.our-team-title {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #ffffff;
+}
+
+
+.text-gaming-headset {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    /* identical to box height, or 306% */
+
+    text-align: center;
+    letter-spacing: 0.2em;
+
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.line-wrapper {
+    width: 90%;
+    padding-top: 80px;
+}
+
+nav {
+
+
+    .text-wrapped {
+        left: 50%;
+        transform: translate(-50%);
+        top: 44px;
+        width: 50%;
+        height: 100px;
+        background: linear-gradient(90deg,
+                rgba(0, 0, 0, 0) 0%,
+                #000000 27.08%,
+                #000000 77.08%,
+                rgba(0, 0, 0, 0) 100%);
+
+        h5 {
+            font-family: "Chakra Petch";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            /* identical to box height, or 306% */
+
+            text-align: center;
+            letter-spacing: 0.2em;
+
+            background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+
+        h2 {
+            font-family: "Chakra Petch";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            /* identical to box height, or 172% */
+
+            text-align: center;
+        }
+    }
+}
+.our-team{
+    img {
+       
+    }
+}

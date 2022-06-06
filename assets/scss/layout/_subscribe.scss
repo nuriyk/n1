@@ -1,0 +1,46 @@
+.subscribe-button {
+    width: 106px;
+    height: 42px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+    background: linear-gradient(82.26deg, #ee2762 -1.94%, #f05b3a 95.6%);
+    border-radius: 3.33594px;
+}
+
+.subscribe-input {
+    height: 42px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.58);
+    border-radius: 4px;
+}
+
+.subscribe-title {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+
+.subscribe {
+    background: url(~/static/images/home/subscribe/bg.png) no-repeat center center;
+    box-shadow: 0px 4px 70px rgba(239, 60, 82, 0.32);
+    border-radius: 12px;
+    border: 1px solid #ee2762;
+}
+
+::placeholder {
+    font-family: "Chakra Petch";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+  
+    color: #8f8f8f;
+  }
